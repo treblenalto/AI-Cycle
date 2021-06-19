@@ -2,6 +2,7 @@
 Application of AI Super Resolution and Object Detection for Surveillance Cameras Monitoring Recycling Process
 
 ## Overview
+<img width="500" alt="result" src="./img/recycling.png">
 인공지능 초해상화 알고리즘과 이미지 인식을 활용한 재활용 모니터링 CCTV<br>
 플라스틱 제품의 재활용률은 선별량 대비 50% 미만의 수치를 보이고 있다. 이에 대한
 해결책으로 재활용 전 선별이 중요시되고 있다. 본 프로젝트는 재활용 전 선별 방법으로
@@ -24,10 +25,10 @@ Application of AI Super Resolution and Object Detection for Surveillance Cameras
 ## Models
 - [Super Resolution] **ESPCN** - [Real-Time Single Image and Video Super-Resolution Using Efficient Sub-Pixel Convolutional Neural Network, 2016 (Wenzhe Shi, Jose Caballero, Ferenc Huszar)](https://arxiv.org/pdf/1609.05158.pdf)
 
-- [Object Detection] **YOLOv4** - [Optimal Speed and Accuracy of Object Detection Review](https://arxiv.org/abs/2004.10934)
+- [Object Detection] **YOLOv4** - [Optimal Speed and Accuracy of Object Detection Review, 2020 (Alexey Bochkovskiy, Chien-Yao Wang, Hong-Yuan Mark Liao)](https://arxiv.org/abs/2004.10934)
 
 **Technology Stack**
-![tech stack](./img/tech_stk.png)
+<img width="700" alt="result" src="../img/tech.png">
 
 ## Result
 
