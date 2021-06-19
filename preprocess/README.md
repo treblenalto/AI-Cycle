@@ -1,6 +1,6 @@
 # Preprocess
 
-## Crawling
+## Data Collection
 ![crawling image](../img/crawl.png)
 Selenium 라이브러리를 이용하여 Google Photo에서 총 7가지 키워드로 Web Crawling. 
 2974장을 수집 후,
