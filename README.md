@@ -14,8 +14,8 @@ Application of AI Super Resolution and Object Detection for Surveillance Cameras
 
 ## Data
 **Train**
-- Super Resolution: VOC2012, DIV2K 데이터셋을 활용해 모델을 학습시켰다. 
-- Object Detection: 이미지 크롤링을 통해 데이터셋을 직접 구축하였다. 자세한 내용은 [preprocess](./preprocess/README.md) 에서 확인할 수 있다. 
+- [Super Resolution] VOC2012, DIV2K 데이터셋을 활용해 모델을 학습시켰다. 
+- [Object Detection] 이미지 크롤링을 통해 데이터셋을 직접 구축하였다. 자세한 내용은 [preprocess](./preprocess/README.md) 에서 확인할 수 있다. 
 
 **Test**
 - Video
