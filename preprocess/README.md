@@ -9,7 +9,7 @@ Data Cleansing를 거쳐 총 1335장의 사진 확보.
 
 
 ## Labeling & Bounding Box
-라벨링 tool 중 Yolo Label을 이용하여 Bounding Box와 Labeling 진행.<br>
+라벨링 tool 중 [Yolo Label](https://github.com/developer0hye/Yolo_Label)을 이용하여 Labeling과 Bounding Box 진행.<br>
 이미지에 Labeling Bounding Box를 그려 각 이미지의 Labeling text 생성. (복수 라벨링 가능)
 * Labeling text format : label, central x-coordinate, central y-coordinate, width, height
 * Label
