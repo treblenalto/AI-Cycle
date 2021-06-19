@@ -24,10 +24,10 @@ Application of AI Super Resolution and Object Detection for Surveillance Cameras
 ## Models
 - [Super Resolution] **ESPCN** - [Real-Time Single Image and Video Super-Resolution Using Efficient Sub-Pixel Convolutional Neural Network, 2016 (Wenzhe Shi, Jose Caballero, Ferenc Huszar)](https://arxiv.org/pdf/1609.05158.pdf)
 
-- [Object Detection] **YOLOv4** - 
+- [Object Detection] **YOLOv4** - [Optimal Speed and Accuracy of Object Detection Review](https://arxiv.org/abs/2004.10934)
 
 **Technology Stack**
-![tech stack]()
+![tech stack](./img/tech_stk.png)
 
 ## Result
 

@@ -13,10 +13,6 @@ Data Cleansing를 거쳐 총 1335장의 사진 확보.
 이미지에 Labeling Bounding Box를 그려 각 이미지의 Labeling text 생성. (복수 라벨링 가능)
 * Labeling text format : label, central x-coordinate, central y-coordinate, width, height
 * Label
-  - Clean
-  - Labeled
-  - Colored
-
-![label_clean](../img/label(1).png)
-![label_labeled](../img/label(2).png)
-![label_colored](../img/label(3).png)
+    | Clean | Labeled | Colored |
+    |:-----:|:-------:|:-------:|
+    | ![label_clean](../img/label(1).png) | ![label_labeled](../img/label(2).png) | ![label_colored](../img/label(3).png) |
