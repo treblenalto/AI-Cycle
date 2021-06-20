@@ -48,6 +48,7 @@ Application of AI Super Resolution and Object Detection for Surveillance Cameras
 
 ## References
 * [windmaple/ESPCN](https://github.com/windmaple/ESPCN)
+* [quangnhat185/darknet_for_colab](https://github.com/quangnhat185/darknet_for_colab)
 
 ## Structure
 ```
