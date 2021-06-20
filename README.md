@@ -2,7 +2,7 @@
 Application of AI Super Resolution and Object Detection for Surveillance Cameras Monitoring Recycling Process
 
 ## Overview
-<img width="400" alt="result" src="./img/recycling.png"><br>
+<img width="400" alt="recycling" src="./img/recycling.png"><br>
 인공지능 초해상화 알고리즘과 이미지 인식을 활용한 재활용 모니터링 CCTV<br>
 
 플라스틱 제품의 재활용률은 선별량 대비 50% 미만의 수치를 보이고 있다. 이에 대한
@@ -15,21 +15,23 @@ Application of AI Super Resolution and Object Detection for Surveillance Cameras
 
 ## Data
 **Train**
-- [Super Resolution] DIV2K 데이터셋을 활용해 모델을 학습시켰다. 
+- [Super Resolution] BSDS300, DIV2K 데이터셋을 활용해 모델을 학습시켰다. 
 - [Object Detection] 이미지 크롤링을 통해 데이터셋을 직접 구축하였다. 자세한 내용은 [preprocess](./preprocess/README.md) 에서 확인할 수 있다. 
-s
+
 **Test**
 - Video
 - Webcam
 
+## Technology Stack
+<img width="700" alt="tech stack" src="./img/tech.png"><br>
 
 ## Models
 - [Super Resolution] **ESPCN** - [Real-Time Single Image and Video Super-Resolution Using Efficient Sub-Pixel Convolutional Neural Network, 2016 (Wenzhe Shi, Jose Caballero, Ferenc Huszar)](https://arxiv.org/pdf/1609.05158.pdf)
 
 - [Object Detection] **YOLOv4** - [Optimal Speed and Accuracy of Object Detection Review, 2020 (Alexey Bochkovskiy, Chien-Yao Wang, Hong-Yuan Mark Liao)](https://arxiv.org/pdf/2004.10934.pdf)
 
-**Technology Stack**<br>
-<img width="700" alt="result" src="./img/tech.png">
+**Flowchart**<br>
+<img width="700" alt="flowchart" src="./img/flowchart.png">
 
 ## Result
 
@@ -43,6 +45,9 @@ s
 
 **Object Detection**<br>
 정성경 <!--각자 이름 추가-->
+
+## References
+* [windmaple/ESPCN](https://github.com/windmaple/ESPCN)
 
 ## Structure
 ```
