@@ -1,5 +1,5 @@
 # AI-Cycle
-고은지 김태희 양원재 이수연 이지호 최미소
+Application of AI Super Resolution and Object Detection for Surveillance Cameras Monitoring Recycling Process
 
 ## Overview
 <img width="400" alt="recycling" src="./img/recycling.png"><br>
@@ -30,7 +30,6 @@
 
 - [Object Detection] **YOLOv4** - [Optimal Speed and Accuracy of Object Detection Review, 2020 (Alexey Bochkovskiy, Chien-Yao Wang, Hong-Yuan Mark Liao)](https://arxiv.org/pdf/2004.10934.pdf)
 
-
 **Flowchart**<br>
 <img width="700" alt="flowchart" src="./img/flowchart.png">
 
@@ -53,4 +52,4 @@
 ## Structure
 ```
 
-## 
+```
