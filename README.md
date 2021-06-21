@@ -15,7 +15,7 @@ Application of AI Super Resolution and Object Detection for Surveillance Cameras
 
 ## Data
 **Train**
-- [Super Resolution] BSDS300, DIV2K 데이터셋을 활용해 모델을 학습시켰다. 
+- [Super Resolution] BSDS300, DIV2K 데이터셋을 활용해 모델을 학습하였다. 
 - [Object Detection] 이미지 크롤링을 통해 데이터셋을 직접 구축하였다. 자세한 내용은 [preprocess](./preprocess/README.md) 에서 확인할 수 있다. 
 
 **Test**
@@ -47,6 +47,7 @@ Application of AI Super Resolution and Object Detection for Surveillance Cameras
 정성경 <!--각자 이름 추가-->
 
 ## References
+* [developer0hye/Yolo_Label](https://github.com/developer0hye/Yolo_Label)
 * [windmaple/ESPCN](https://github.com/windmaple/ESPCN)
 * [quangnhat185/darknet_for_colab](https://github.com/quangnhat185/darknet_for_colab)
 
