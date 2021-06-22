@@ -50,6 +50,7 @@ Application of AI Super Resolution and Object Detection for Surveillance Cameras
 * [developer0hye/Yolo_Label](https://github.com/developer0hye/Yolo_Label)
 * [windmaple/ESPCN](https://github.com/windmaple/ESPCN)
 * [quangnhat185/darknet_for_colab](https://github.com/quangnhat185/darknet_for_colab)
+* [theAIGuysCode/YOLOv4-Cloud-Tutorial](https://github.com/theAIGuysCode/YOLOv4-Cloud-Tutorial)
 
 ## Structure
 ```
