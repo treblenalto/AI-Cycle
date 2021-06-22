@@ -53,5 +53,27 @@ Application of AI Super Resolution and Object Detection for Surveillance Cameras
 
 ## Structure
 ```
-
+AI-Cycle
+├── README.md
+├── preprocess
+│   ├───crawling.py
+│   └───README.md
+│
+├── data
+│   ├───classes.names
+│   ├───yolov4_custom_test.cfg
+│   ├───yolov4_custom_train.cfg
+│   └───yolov4_custom_train.weights
+│
+├── models
+│   ├───export_ep700
+│   ├───ESPCN(ep_700).ipynb
+│   └───//yolov4.ipynb
+│
+├── result
+│   ├───sr_od_video.ipynb
+│   └───//od_webcam.ipynb
+│
+├── LICENSE
+│   
 ```
