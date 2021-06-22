@@ -73,7 +73,7 @@ AI-Cycle
 │
 ├── result
 │   ├───sr_od_video.ipynb
-│   └───//od_webcam.ipynb
+│   └───od_webcam.ipynb
 │
 ├── LICENSE
 │   
