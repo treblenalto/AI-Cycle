@@ -36,7 +36,7 @@ Application of AI Super Resolution and Object Detection for Surveillance Cameras
 <img width="700" alt="flowchart" src="./img/flowchart.png">
 
 ## Result
-<table><tr>
+<table style="border: 0px solid transparent"><tr>
     <td><img height="250" alt="vid_label" src="./img/vid_label.gif"></td>
     <td><img height="200" alt="test_label(1)" src="./img/test_label(1).png"></td>
     <td><img height="200" alt="test_label(2)" src="./img/test_label(2).png"></td>
@@ -45,7 +45,7 @@ SR + OD 결과, 플라스틱 제품을 각각 Clean / Labeled / Colored 로 알�
 Labeled + Colored 제품의 경우 Label의 부착 여부를 우선으로 선별하도록 하였다.
 <br><br>
 
-<table><tr>
+<table style="border: 0px solid transparent"><tr>
     <td><img height="250" alt="vid_recycle" src="./img/vid_recycle.gif"></td>
     <td><img height="200" alt="test_recycle(1)" src="./img/test_recycle(1).png"></td>
     <td><img height="200" alt="test_recycle(2)" src="./img/test_recycle(2).png"></td>
