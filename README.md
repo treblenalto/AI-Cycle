@@ -1,6 +1,6 @@
-# AI-Cycle
-Application of AI Super Resolution and Object Detection for Surveillance Cameras Monitoring Recycling Process<br>
-2021.01.18~2021.03.08
+# AI-Cycle <font size='-1'>(2021.01.18~2021.03.08)</font>
+Application of AI Super Resolution and Object Detection for Surveillance Cameras Monitoring Recycling Process
+
 
 ## Overview
 <img width="400" alt="recycling" src="./img/recycling.png"><br>
@@ -35,7 +35,22 @@ Application of AI Super Resolution and Object Detection for Surveillance Cameras
 <img width="700" alt="flowchart" src="./img/flowchart.png">
 
 ## Result
+<table><tr>
+    <td><img height="250" alt="vid_label" src="./img/vid_label.gif"></td>
+    <td><img height="200" alt="test_label(1)" src="./img/test_label(1).png"></td>
+    <td><img height="200" alt="test_label(2)" src="./img/test_label(2).png"></td>
+</tr></table>
+SR + OD 결과, 플라스틱 제품을 각각 Clean / Labeled / Colored 로 알맞게 탐지한 것을 확인할 수 있다.<br>
+Labeled + Colored 제품의 경우 Label의 부착 여부를 우선으로 선별하도록 하였다.
+<br><br>
 
+<table><tr>
+    <td><img height="250" alt="vid_recycle" src="./img/vid_recycle.gif"></td>
+    <td><img height="200" alt="test_recycle(1)" src="./img/test_recycle(1).png"></td>
+    <td><img height="200" alt="test_recycle(2)" src="./img/test_recycle(2).png"></td>
+</tr></table>
+무색(clean) 플라스틱의 분리배출 동작 중 화질 개선 및 객체 탐지를 진행하였다.<br>
+물체가 분리배출되는 짧은 순간을 감지한 것을 확인할 수 있었다.
 
 ## Usage
 Clone Repository
@@ -57,8 +72,8 @@ git clone git@github.com:Taehee-K/AI-Cycle
     cd AI-Cycle/results/
     ```
 - Run Models
-   - SR + OD >> Video: run [sr_od_video.ipynb](https://github.com/Taehee-K/AI-Cycle/blob/master/result/sr_od_video.ipynb)
-   - OD >> Webcam: run [od_webcam.ipynb](https://github.com/Taehee-K/AI-Cycle/blob/master/result/od_webcam.ipynb)
+   - SR + OD >> Video: [sr_od_video.ipynb](https://github.com/Taehee-K/AI-Cycle/blob/master/result/sr_od_video.ipynb)
+   - OD >> Webcam: [od_webcam.ipynb](https://github.com/Taehee-K/AI-Cycle/blob/master/result/od_webcam.ipynb)
 
 **Note:** Jupyter Notebook 안의 모델 & 파라미터 경로들이 다 상대적이지는 않습니다. 실행 전 주석에 따라 리팩토링이 필요할 수 있습니다. <br>
 <!--Make sure to include correct model & parameter paths in the notebooks as not everything is relative right now and it needs some refactoring-->
