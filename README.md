@@ -1,5 +1,6 @@
 # AI-Cycle
-Application of AI Super Resolution and Object Detection for Surveillance Cameras Monitoring Recycling Process
+Application of AI Super Resolution and Object Detection for Surveillance Cameras Monitoring Recycling Process<br>
+2021.01.18~2021.03.08
 
 ## Overview
 <img width="400" alt="recycling" src="./img/recycling.png"><br>
@@ -37,14 +38,37 @@ Application of AI Super Resolution and Object Detection for Surveillance Cameras
 
 
 ## Usage
+Clone Repository
+```
+HTTPS:
+git clone https://github.com/Taehee-K/AI-Cycle
 
+SSH: 
+git clone git@github.com:Taehee-K/AI-Cycle
+```
+### 코랩 상에서 실행하기(권장)
+- Colab에서 [런타임] - [런타임 유형 변경] - 하드웨어 가속기(GPU) 사용을 권장합니다.
+- SR + OD >> Video: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Taehee-K/AI-Cycle/blob/master/result/sr_od_video.ipynb)
+- OD >> Webcam: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Taehee-K/AI-Cycle/blob/master/result/od_webcam.ipynb)
+
+### 로컬에서 실행하기
+-  Go to project root directory -> results
+    ```
+    cd AI-Cycle/results/
+    ```
+- Run Models
+   - SR + OD >> Video: run [sr_od_video.ipynb](https://github.com/Taehee-K/AI-Cycle/blob/master/result/sr_od_video.ipynb)
+   - OD >> Webcam: run [od_webcam.ipynb](https://github.com/Taehee-K/AI-Cycle/blob/master/result/od_webcam.ipynb)
+
+**Note:** Jupyter Notebook 안의 모델 & 파라미터 경로들이 다 상대적이지는 않습니다. 실행 전 주석에 따라 리팩토링이 필요할 수 있습니다. <br>
+<!--Make sure to include correct model & parameter paths in the notebooks as not everything is relative right now and it needs some refactoring-->
 
 ## Contributors
 **Super Resolution**<br>
-김태희 <!--각자 이름 추가-->
+고은지 김태희<sup>*</sup> 이수연 이지호
 
 **Object Detection**<br>
-정성경 <!--각자 이름 추가-->
+양원재 정성경<sup>*</sup> 최미소
 
 ## References
 * [developer0hye/Yolo_Label](https://github.com/developer0hye/Yolo_Label)
@@ -55,6 +79,7 @@ Application of AI Super Resolution and Object Detection for Surveillance Cameras
 ```
 AI-Cycle
 ├── README.md
+├── LICENSE
 ├── preprocess
 │   ├───crawling.py
 │   └───README.md
@@ -68,12 +93,10 @@ AI-Cycle
 ├── models
 │   ├───export_ep700
 │   ├───ESPCN(ep_700).ipynb
-│   └───//yolov4.ipynb
+│   └───//YOLOv4.ipynb
 │
 ├── result
-│   ├───sr_od_video.ipynb
-│   └───//od_webcam.ipynb
-│
-├── LICENSE
+│   ├───od_webcam.ipynb
+│   └───sr_od_video.ipynb
 │   
 ```
