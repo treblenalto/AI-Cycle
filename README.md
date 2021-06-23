@@ -46,7 +46,7 @@ git clone https://github.com/Taehee-K/AI-Cycle
 SSH: 
 git clone git@github.com:Taehee-K/AI-Cycle
 ```
-### 코랩 상에서 실행하기(권장)
+### 구글 코랩(Colab)에서 실행하기(권장)
 - Colab에서 [런타임] - [런타임 유형 변경] - 하드웨어 가속기(GPU) 사용을 권장합니다.
 - SR + OD >> Video: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Taehee-K/AI-Cycle/blob/master/result/sr_od_video.ipynb)
 - OD >> Webcam: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Taehee-K/AI-Cycle/blob/master/result/od_webcam.ipynb)
