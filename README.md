@@ -1,5 +1,6 @@
-# AI-Cycle <font size='-1'>(2021.01.18~2021.03.08)</font>
-Application of AI Super Resolution and Object Detection for Surveillance Cameras Monitoring Recycling Process
+# AI-Cycle 
+Application of AI Super Resolution and Object Detection for Surveillance Cameras Monitoring Recycling Process<br>
+(2021.01.18~2021.03.08)
 
 
 ## Overview
