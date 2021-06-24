@@ -110,7 +110,7 @@ AI-Cycle
 ├── models
 │   ├───export_ep700
 │   ├───ESPCN(ep_700).ipynb
-│   └───//YOLOv4.ipynb
+│   └───YOLOv4.ipynb
 │
 ├── result
 │   ├───od_webcam.ipynb
