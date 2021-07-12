@@ -35,7 +35,7 @@ Application of AI Super Resolution and Object Detection for Surveillance Cameras
 **Flowchart**<br>
 <img width="700" alt="flowchart" src="./img/flowchart.png">
 
-## Result
+## Results
 <table><tr>
     <td><img height="250" alt="vid_label" src="./img/vid_label.gif"></td>
     <td><img height="200" alt="test_label(1)" src="./img/test_label(1).png"></td>
@@ -112,7 +112,7 @@ AI-Cycle
 │   ├───ESPCN(ep_700).ipynb
 │   └───YOLOv4.ipynb
 │
-├── result
+├── results
 │   ├───od_webcam.ipynb
 │   └───sr_od_video.ipynb
 │   
