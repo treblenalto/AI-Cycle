@@ -64,8 +64,8 @@ git clone git@github.com:Taehee-K/AI-Cycle
 ```
 ### 구글 코랩(Colab)에서 실행하기(권장)
 - Colab에서 [런타임] - [런타임 유형 변경] - 하드웨어 가속기(GPU) 사용을 권장합니다.
-- SR + OD >> Video: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Taehee-K/AI-Cycle/blob/master/result/sr_od_video.ipynb)
-- OD >> Webcam: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Taehee-K/AI-Cycle/blob/master/result/od_webcam.ipynb)
+- SR + OD >> Video: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Taehee-K/AI-Cycle/blob/master/results/sr_od_video.ipynb)
+- OD >> Webcam: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Taehee-K/AI-Cycle/blob/master/results/od_webcam.ipynb)
 
 ### 로컬에서 실행하기
 -  Go to project root directory -> results
@@ -73,8 +73,8 @@ git clone git@github.com:Taehee-K/AI-Cycle
     cd AI-Cycle/results/
     ```
 - Run Models
-   - SR + OD >> Video: [sr_od_video.ipynb](https://github.com/Taehee-K/AI-Cycle/blob/master/result/sr_od_video.ipynb)
-   - OD >> Webcam: [od_webcam.ipynb](https://github.com/Taehee-K/AI-Cycle/blob/master/result/od_webcam.ipynb)
+   - SR + OD >> Video: [sr_od_video.ipynb](https://github.com/Taehee-K/AI-Cycle/blob/master/results/sr_od_video.ipynb)
+   - OD >> Webcam: [od_webcam.ipynb](https://github.com/Taehee-K/AI-Cycle/blob/master/results/od_webcam.ipynb)
 
 **Note:** Jupyter Notebook 안의 모델 & 파라미터 경로들이 다 상대적이지는 않습니다. 실행 전 주석에 따라 리팩토링이 필요할 수 있습니다. <br>
 <!--Make sure to include correct model & parameter paths in the notebooks as not everything is relative right now and it needs some refactoring-->
