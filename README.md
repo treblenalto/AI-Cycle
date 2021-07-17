@@ -81,10 +81,10 @@ git clone git@github.com:Taehee-K/AI-Cycle
 
 ## Contributors
 **Super Resolution**<br>
-[고은지]() [김태희<sup>*</sup>](https://github.com/Taehee-K) [이수연]() [이지호]()
+고은지 [김태희<sup>*</sup>](https://github.com/Taehee-K) 이수연 이지호
 
 **Object Detection**<br>
-[양원재]() [정성경<sup>*</sup>](https://github.com/SK-jeong) [최미소]()
+양원재 [정성경<sup>*</sup>](https://github.com/SK-jeong) 최미소
 
 ## References
 * [developer0hye/Yolo_Label](https://github.com/developer0hye/Yolo_Label)
